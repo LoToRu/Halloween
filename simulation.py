@@ -23,8 +23,8 @@ city.add_shop(shop2)
 city.simulate_demand()
 
 # Create customers
-customer1 = Customer("Alice", 100, ["Skeleton Costume", "Zombie Costume"])
-customer2 = Customer("Bob", 85, ["Vampire Costume", "Ghost Costume"])
+customer1 = Customer("Anna", 100, ["Skeleton Costume", "Zombie Costume"])
+customer2 = Customer("Kote", 85, ["Vampire Costume", "Ghost Costume"])
 
 # Customers shop
 for costume in customer1.shopping_list:
